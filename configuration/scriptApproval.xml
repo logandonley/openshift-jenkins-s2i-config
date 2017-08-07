@@ -1,12 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<scriptApproval plugin="script-security@1.26">
+<scriptApproval plugin="script-security@1.29">
   <approvedScriptHashes/>
   <approvedSignatures>
-    <string>method java.lang.String isEmpty</string>
+    <string>method hudson.plugins.git.BranchSpec getName</string>
+    <string>method hudson.plugins.git.GitSCM getBranches</string>
+    <string>method java.lang.Throwable getLocalizedMessage</string>
+    <string>method org.jenkinsci.plugins.workflow.steps.FlowInterruptedException getCauses</string>
+    <string>method org.jenkinsci.plugins.workflow.support.steps.input.Rejection getUser</string>
+    <string>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods drop java.lang.CharSequence int</string>
+    <string>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods reverse java.lang.String</string>
   </approvedSignatures>
   <aclApprovedSignatures/>
   <approvedClasspathEntries/>
   <pendingScripts/>
-  <pendingSignatures/>
+  <pendingSignatures>
+    <pendingSignature>
+      <context/>
+      <signature>method java.lang.Throwable getLocalizedMessage</signature>
+      <dangerous>false</dangerous>
+    </pendingSignature>
+  </pendingSignatures>
   <pendingClasspathEntries/>
 </scriptApproval>
