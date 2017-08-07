@@ -19,7 +19,6 @@ blueocean-web:1.1.4
 blueocean:1.1.4
 bouncycastle-api:2.16.1
 branch-api:2.0.10
-build-monitor-plugin:1.12
 cloudbees-folder:6.0.4
 credentials-binding:1.12
 credentials:2.1.14
